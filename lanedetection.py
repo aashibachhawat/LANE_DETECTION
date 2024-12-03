@@ -11,7 +11,7 @@ import math
 # Canny edge detection
 # Hough Transform
 
-img = cv.imread(r'C:\Users\MailA\OneDrive\VIITSEM3\ROBOTICS\Practice\LANE_DETECTION\road.jpg')
+img = cv.imread('road.jpg')
 plt.figure()
 plt.imshow(img)
 plt.show()
